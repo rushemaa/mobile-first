@@ -6,6 +6,11 @@ body {
   color: #6070ff;
 }
 
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 768px) {
   .main-wrapper {
     background: white;
@@ -32,6 +37,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
+    text-decoration: none;
   }
 
   .headline {
@@ -85,5 +91,8 @@ body {
     justify-content: space-between;
     align-items: baseline;
     padding-bottom: 136px;
+    list-style-type: none;
+    text-align: left;
+    padding-left: initial;
   }
 }
