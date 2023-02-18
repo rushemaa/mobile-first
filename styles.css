@@ -108,7 +108,7 @@ a:hover {
     align-items: left;
     padding: 16px;
     gap: 12px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-left: 24px;
@@ -130,7 +130,6 @@ a:hover {
 
   .details {
     width: auto;
-
     display: flex;
     flex-direction: column;
   }
@@ -227,7 +226,6 @@ a:hover {
     width: 203px;
     height: 24px;
     gap: 8px;
-    height: 24px;
     list-style-type: none;
     padding-left: initial;
   }
@@ -262,12 +260,12 @@ a:hover {
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    background-color: #ffffff;
+    background-color: #fff;
     border: 1px solid #6070ff;
   }
 
   .about-myself {
-    background-color: #ffffff;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -336,12 +334,12 @@ a:hover {
   }
 
   .lang-title {
-    font-family: "Poppins";
+    font-family: sans-serif, "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
     display: flex;
     list-style-type: none;
     width: auto;
@@ -357,7 +355,7 @@ a:hover {
     height: 66.72px;
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 12px 0px;
+    margin: 12px initial;
     padding: 9px;
     align-items: center;
   }
@@ -373,12 +371,12 @@ a:hover {
   }
 
   .frameworks {
-    font-family: "Poppins";
+    font-family: sans-serif, "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
     display: flex;
     list-style-type: none;
     width: auto;
@@ -394,7 +392,7 @@ a:hover {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
   }
 
   .sign {
