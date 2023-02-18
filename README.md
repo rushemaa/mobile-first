@@ -60,8 +60,8 @@ To get a local copy up and running,clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[About_Myself]**
-- **[Projects]**
+- **[Get_my_resume]**
+- **[Lets_Connect]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
