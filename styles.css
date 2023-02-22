@@ -480,21 +480,4 @@ a:hover {
     border-radius: 8px;
     margin-top: 20px;
   }
-
-  .contact-me textarea {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #b3bac5;
-    padding: 15px 38px 15px 16px;
-    height: 170px;
-    margin-top: 18px;
-    margin-bottom: 22px;
-    resize: none;
-  }
 }
