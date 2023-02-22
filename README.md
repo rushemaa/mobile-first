@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Mobile first</b></h3>
+  <h3><b> Rushema's Portfolio: The mobile version</b></h3>
 
 </div>
 
@@ -10,7 +10,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-  - [🚀 Live Demo](#live-demo)
+  - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -20,9 +20,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [mobile-first] <a name="about-project"></a>
+# 📖 [Rushema-Portfolio] <a name="about-project"></a>
 
-**[mobile-first]** is the first page of the mobile version of my portfolio
+**[Rushema-Portfolio]** is the first page of the mobile version of my portfolio
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,9 +38,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- Features -->
 
-- [Live Demo Link](https://github.com/rushemaa/mobile-first)
+### Key Features <a name="key-features"></a>
+
+- **About Myself**
+- **Contact me**
+- **Projects list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,8 +64,8 @@ To get a local copy up and running,clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Get_my_resume]**
-- **[Lets_Connect]**
+- **Get my resume**
+- **Lets Connect**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
