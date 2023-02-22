@@ -441,7 +441,7 @@ a:hover {
     background-image: url("images/contactform-shapes-mobile.png");
     background-repeat: no-repeat;
     background-position: right top;
-    height: 779px;
+    background-size: 265px 709px;
   }
 
   .contact-me > * {
