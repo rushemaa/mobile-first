@@ -330,7 +330,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     width: auto;
-    margin-bottom: 113.85px;
+    margin-bottom: 251.85px;
   }
 
   .lang-title {
@@ -397,5 +397,104 @@ a:hover {
 
   .sign {
     padding-right: 20px;
+  }
+
+  /* The contact form  */
+
+  .contact-me {
+    background-color: #6070ff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-top-left-radius: 100px;
+    margin-top: -114px;
+    background-image: url("images/contactform-shapes-mobile.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  .contact-me > * {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .contact-me h2 {
+    font-family: sans-serif, "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 103px;
+    margin-bottom: initial;
+    color: #fff;
+    text-align: center;
+  }
+
+  .contact-me p {
+    margin-top: initial;
+    margin-bottom: initial;
+    font-family: sans-serif, "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .contact-me form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-me input {
+    height: 18px;
+    font-family: sans-serif, "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    color: #172b4d;
+    padding: 15px 38px 15px 16px;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .contact-me textarea {
+    background: #ffffff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-family: sans-serif, "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #b3bac5;
+    padding: 15px 38px 15px 16px;
+    height: 170px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+    resize: none;
+  }
+
+  .contact-me button {
+    font-family: sans-serif, "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    width: 142px;
+    height: 48px;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 22px;
+    margin-bottom: 45px;
+    padding: 12px 16px;
+    border: 1px solid #6070ff;
   }
 }
