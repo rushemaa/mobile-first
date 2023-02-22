@@ -42,9 +42,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[About Myself]**
-- **[Contact me]**
-- **[Projects list]**
+- **About Myself**
+- **Contact me**
+- **Projects list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,8 +64,8 @@ To get a local copy up and running,clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Get my resume]**
-- **[Lets Connect]**
+- **Get my resume**
+- **Lets Connect**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
