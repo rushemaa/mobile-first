@@ -43,8 +43,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[About_Myself]**
-- **[Contact me]**
-- **[Projects list]**
+- **[Contact_me]**
+- **[Projects_list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
