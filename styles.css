@@ -249,6 +249,24 @@ a:hover {
     align-items: center;
   }
 
+  .contact-me button {
+    font-family: sans-serif, "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    width: 142px;
+    height: 48px;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 22px;
+    margin-bottom: 45px;
+    padding: 12px 16px;
+    border: 1px solid #6070ff;
+  }
+
   .see-project button {
     padding: 12px;
     width: 124px;
@@ -360,6 +378,18 @@ a:hover {
     align-items: center;
   }
 
+  .contact-me p {
+    margin-top: initial;
+    margin-bottom: initial;
+    font-family: sans-serif, "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
   .languages-list .lang p {
     font-family: sans-serif, "Poppins";
     font-style: normal;
@@ -430,18 +460,6 @@ a:hover {
     text-align: center;
   }
 
-  .contact-me p {
-    margin-top: initial;
-    margin-bottom: initial;
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #ebebff;
-  }
-
   .contact-me form {
     display: flex;
     flex-direction: column;
@@ -464,7 +482,7 @@ a:hover {
   }
 
   .contact-me textarea {
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     font-family: sans-serif, "Poppins";
@@ -478,23 +496,5 @@ a:hover {
     margin-top: 18px;
     margin-bottom: 22px;
     resize: none;
-  }
-
-  .contact-me button {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    width: 142px;
-    height: 48px;
-    background: #fff;
-    border-radius: 8px;
-    margin-top: 22px;
-    margin-bottom: 45px;
-    padding: 12px 16px;
-    border: 1px solid #6070ff;
   }
 }
