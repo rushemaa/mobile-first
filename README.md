@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b> Rushema's Portfolio: The mobile version</b></h3>
+  <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -22,7 +22,7 @@
 
 # 📖 [Rushema-Portfolio] <a name="about-project"></a>
 
-**[Rushema-Portfolio]** is the first page of the mobile version of my portfolio
+**[Rushema-Portfolio]** is the first page of my portfolio
 
 ## 🛠 Built With <a name="built-with"></a>
 

@@ -6,12 +6,21 @@ body {
   color: #6070ff;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   text-decoration: none;
   cursor: pointer;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+.fonts {
+  font-family: sans-serif, "Poppins";
+  font-style: normal;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
   .main-wrapper {
     background: white;
     display: flex;
@@ -33,12 +42,14 @@ a:hover {
 
   .my-logo {
     padding: 10px 12px 10px 12px;
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
     text-decoration: none;
+  }
+
+  .nav-menues {
+    display: none;
   }
 
   .headline {
@@ -56,8 +67,6 @@ a:hover {
   }
 
   .headline h1 {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -68,8 +77,6 @@ a:hover {
   }
 
   .text {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -77,8 +84,6 @@ a:hover {
   }
 
   .connect {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -157,8 +162,6 @@ a:hover {
   }
 
   .project-title {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
@@ -176,8 +179,6 @@ a:hover {
   }
 
   .canopy .o-li {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
@@ -185,8 +186,6 @@ a:hover {
   }
 
   .bullets {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 600;
     line-height: 16px;
     color: #7a869a;
@@ -201,8 +200,6 @@ a:hover {
   }
 
   .canopy :first-child {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
@@ -210,8 +207,6 @@ a:hover {
   }
 
   .grid-items p {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -234,8 +229,6 @@ a:hover {
     padding: 4px 12px;
     background: #ebebff;
     border-radius: 8px;
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -250,8 +243,6 @@ a:hover {
   }
 
   .contact-me button {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
@@ -272,8 +263,6 @@ a:hover {
     width: 124px;
     height: 48px;
     border-radius: 8px;
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
@@ -296,9 +285,13 @@ a:hover {
     margin-right: 24px;
   }
 
+  .myslef {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
   .about {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -352,8 +345,6 @@ a:hover {
   }
 
   .lang-title {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -364,6 +355,12 @@ a:hover {
     padding: 9px;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .land-span {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .languages-list .lang {
@@ -379,10 +376,6 @@ a:hover {
   }
 
   .contact-me p {
-    margin-top: initial;
-    margin-bottom: initial;
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -391,8 +384,6 @@ a:hover {
   }
 
   .languages-list .lang p {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -401,8 +392,6 @@ a:hover {
   }
 
   .frameworks {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -417,8 +406,6 @@ a:hover {
   }
 
   .langusge {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -435,7 +422,6 @@ a:hover {
     background-color: #6070ff;
     display: flex;
     flex-direction: column;
-    gap: 12px;
     border-top-left-radius: 100px;
     margin-top: -114px;
     background-image: url("images/contactform-shapes-mobile.png");
@@ -450,8 +436,6 @@ a:hover {
   }
 
   .contact-me h2 {
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
@@ -468,8 +452,6 @@ a:hover {
 
   .contact-me input {
     height: 18px;
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
@@ -486,8 +468,6 @@ a:hover {
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    font-family: sans-serif, "Poppins";
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -497,5 +477,531 @@ a:hover {
     margin-top: 18px;
     margin-bottom: 22px;
     resize: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .icons {
+    display: none;
+  }
+
+  .main-wrapper {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 100px;
+    width: 100%;
+  }
+
+  .toolbar {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 9.87vw;
+    margin-left: 9.94vw;
+  }
+
+  .my-logo {
+    padding: 10px 12px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .nav-menues {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 10px;
+  }
+
+  .nav-menues a {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .nav-menues li {
+    padding: 10px 12px;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Header section */
+
+  .headline {
+    flex: 1 1 auto;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 97.17vw 103.36vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 41.2vh;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    padding-bottom: 36.5vh;
+  }
+
+  .headline h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+    margin: initial;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin: initial;
+  }
+
+  .connect {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: initial;
+  }
+
+  .social-media {
+    display: flex;
+    width: 170.17px;
+    height: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+    text-align: left;
+    padding-left: initial;
+    margin: initial;
+  }
+
+  /* Work section */
+
+  .works {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 142px;
+  }
+
+  .grid-items {
+    display: flex;
+    align-items: left;
+    gap: 46px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    padding: 24px;
+    margin-bottom: 142px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: initial;
+    width: 75%;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .project-img {
+    border-radius: 8px;
+    flex: 1;
+    width: 35vw;
+  }
+
+  #project-1 {
+    content: url("images/projects/d-project-1.png");
+  }
+
+  #project-2 {
+    content: url("images/projects/d-project-2.png");
+  }
+
+  #project-3 {
+    content: url("images/projects/d-project-3.png");
+  }
+
+  #project-4 {
+    content: url("images/projects/d-project-4.png");
+  }
+
+  .details {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .details h3 {
+    padding: initial;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  .details ul {
+    margin: initial;
+    padding: initial;
+  }
+
+  .details ul li {
+    margin: initial;
+    padding: initial;
+  }
+
+  .titles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .project-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .canopy {
+    display: flex;
+    width: 236px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: initial;
+    list-style-type: none;
+  }
+
+  .canopy .o-li {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+  }
+
+  .bullets {
+    font-weight: 600;
+    line-height: 16px;
+    color: #7a869a;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #c1c7d0;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .canopy :first-child {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+  }
+
+  .grid-items p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .grid-items .categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: inherit;
+    width: 203px;
+    height: 24px;
+    gap: 8px;
+    list-style-type: none;
+    padding-left: initial;
+  }
+
+  .grid-items .categories li {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+  }
+
+  .see-project {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 116px;
+  }
+
+  .contact-me button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    height: 48px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #6070ff;
+  }
+
+  .see-project button {
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    background-color: #fff;
+    border: 1px solid #6070ff;
+  }
+
+  .about-myself .see-project button {
+    width: 162px;
+    height: 48px;
+  }
+
+  .grid-items .see-project button:hover {
+    background: #4053fc;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* last page */
+
+  .about-myself {
+    background-color: #fff;
+    display: flex;
+    border-top-right-radius: 100px;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    padding-top: 142px;
+  }
+
+  .myslef {
+    display: flex;
+    flex-direction: column;
+    max-width: 447px;
+    gap: 12px;
+    flex: 1;
+  }
+
+  .about {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    margin-bottom: initial;
+  }
+
+  .about-myself .text {
+    margin-top: initial;
+    margin-bottom: initial;
+  }
+
+  .about-myself .connect {
+    margin-top: initial;
+    padding-bottom: 12px;
+    padding-top: 8px;
+  }
+
+  .about-myself .social-media {
+    margin-top: initial;
+    margin-bottom: initial;
+  }
+
+  .about-myself .see-project {
+    margin-bottom: initial;
+    margin-top: 22px;
+  }
+
+  .allow-down {
+    width: 36px;
+    height: 18px;
+    padding-right: 10px;
+  }
+
+  .languages-list {
+    margin: initial;
+    margin-right: 36px;
+    flex: 1;
+  }
+
+  .languages-list ul {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 251.85px;
+  }
+
+  .lang-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    display: flex;
+    list-style-type: none;
+    width: auto;
+    padding: 9px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .land-span {
+    display: flex;
+    gap: 12px;
+  }
+
+  .languages-list .lang {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 8.4vw;
+    background: #f7f7f9;
+    border-radius: 8px;
+    padding: 9px;
+    text-align: left;
+    gap: 16px;
+  }
+
+  .languages-list .lang img {
+    max-width: 48px;
+  }
+
+  .contact-me p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .languages-list .lang p {
+    margin: initial;
+    text-align: left;
+    padding-left: initial;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    padding-bottom: 20px;
+  }
+
+  .frameworks {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    display: flex;
+    list-style-type: none;
+    width: auto;
+    padding: 9px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .langusge {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+  }
+
+  .sign {
+    padding-right: 20px;
+  }
+
+  /* The contact form  */
+
+  .contact-me {
+    background-color: #6070ff;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 100px;
+    margin-top: -114px;
+    background-image: url("images/contact-form-background-shapes.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 89.6vw 102.86vh;
+    text-align: center;
+  }
+
+  .contact-me > * {
+    padding-left: 22.2vw;
+    padding-right: 22.2vw;
+  }
+
+  .c-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-me h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 142px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: initial;
+  }
+
+  .contact-me form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-me input {
+    height: 18px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    color: #172b4d;
+    padding: 15px 38px 15px 16px;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    margin-bottom: 27px;
+  }
+
+  .contact-me textarea {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #b3bac5;
+    padding: 15px 38px 15px 16px;
+    height: 170px;
+    margin-bottom: 27px;
+    resize: none;
+  }
+
+  .btn-submit {
+    margin-bottom: 127px;
+    width: 100%;
+    text-align: center;
   }
 }
