@@ -500,8 +500,8 @@ a:hover {
     align-items: center;
     height: 40px;
     margin-top: 15px;
-    margin-right: 142px;
-    margin-left: 143px;
+    margin-right: 9.87vw;
+    margin-left: 9.94vw;
   }
 
   .my-logo {
@@ -539,14 +539,14 @@ a:hover {
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 1397.4px 721.46px;
+    background-size: 97.17vw 103.36vh;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding-top: 288px;
-    padding-left: 260px;
-    padding-right: 260px;
-    padding-bottom: 255px;
+    padding-top: 41.2vh;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    padding-bottom: 36.5vh;
   }
 
   .headline h1 {
@@ -604,9 +604,10 @@ a:hover {
     border-radius: 24px;
     padding: 24px;
     margin-bottom: 142px;
-    margin-left: 142px;
-    margin-right: 142px;
+    margin-left: 9vw;
+    margin-right: 9vw;
     margin-top: initial;
+    width: 75%;
   }
 
   .reverse {
@@ -615,7 +616,8 @@ a:hover {
 
   .project-img {
     border-radius: 8px;
-    min-width: 544px;
+    flex: 1;
+    width: 35vw;
   }
 
   #project-1 {
@@ -635,9 +637,10 @@ a:hover {
   }
 
   .details {
-    width: auto;
+    width: 35vw;
     display: flex;
     flex-direction: column;
+    flex: 1;
   }
 
   .details h3 {
@@ -751,7 +754,6 @@ a:hover {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #6070ff;
-    width: 124px;
     height: 48px;
     background: #fff;
     border-radius: 8px;
@@ -789,8 +791,8 @@ a:hover {
     background-color: #fff;
     display: flex;
     border-top-right-radius: 100px;
-    padding-left: 142px;
-    padding-right: 142px;
+    padding-left: 9vw;
+    padding-right: 9vw;
     padding-top: 142px;
   }
 
@@ -799,6 +801,7 @@ a:hover {
     flex-direction: column;
     max-width: 447px;
     gap: 12px;
+    flex: 1;
   }
 
   .about {
@@ -839,7 +842,7 @@ a:hover {
   .languages-list {
     margin: initial;
     margin-right: 36px;
-    min-width: 684px;
+    flex: 1;
   }
 
   .languages-list ul {
@@ -871,7 +874,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    width: 122px;
+    width: 8.4vw;
     background: #f7f7f9;
     border-radius: 8px;
     padding: 9px;
@@ -938,13 +941,13 @@ a:hover {
     background-image: url("images/contact-form-background-shapes.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1290px 718px;
+    background-size: 89.6vw 102.86vh;
     text-align: center;
   }
 
   .contact-me > * {
-    padding-left: 320px;
-    padding-right: 319px;
+    padding-left: 22.2vw;
+    padding-right: 22.2vw;
   }
 
   .c-heading {
