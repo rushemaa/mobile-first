@@ -772,6 +772,17 @@ a:hover {
     border: 1px solid #6070ff;
   }
 
+  .about-myself .see-project button {
+    width: 162px;
+    height: 48px;
+  }
+
+  .grid-items .see-project button:hover {
+    background: #4053fc;
+    color: #fff;
+    cursor: pointer;
+  }
+
   /* last page */
 
   .about-myself {
@@ -817,11 +828,6 @@ a:hover {
   .about-myself .see-project {
     margin-bottom: initial;
     margin-top: 22px;
-  }
-
-  .about-myself .see-project button {
-    width: 162px;
-    height: 48px;
   }
 
   .allow-down {
