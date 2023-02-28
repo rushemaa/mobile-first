@@ -891,7 +891,7 @@ a:hover {
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #ebebff;
+    color: #fffcfc;
   }
 
   .languages-list .lang p {
@@ -954,9 +954,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 12px;
-  }
-  .contact-me p {
-    color: #fffcfc;
   }
 
   .contact-me h2 {
