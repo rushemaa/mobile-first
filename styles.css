@@ -20,15 +20,11 @@ a:hover {
   font-style: normal;
 }
 
+.labels {
+  display: none;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-  input {
-    width: 90%;
-  }
-
-  textarea {
-    width: 90%;
-  }
-
   .main-wrapper {
     background: white;
     display: flex;
@@ -489,14 +485,6 @@ a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  input {
-    width: 100%;
-  }
-
-  textarea {
-    width: 100%;
-  }
-
   .icons {
     display: none;
   }

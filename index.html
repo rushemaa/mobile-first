@@ -298,30 +298,31 @@
         </p>
       </div>
       <form action="https://formspree.io/f/meqwgpza" method="POST">
-        <label class="labels"
-          ><input
-            type="text"
-            name="name"
-            placeholder="Yeremias"
-            maxlength="30"
-            required
-        /></label>
-        <label class="labels"
-          ><input
-            type="email"
-            name="email"
-            placeholder="natajayanj14@gmail.com"
-            required
-        /></label>
-        <label class="labels">
-          <textarea
-            name="mail-message"
-            placeholder="Write your message here"
-            maxlength="500"
-            required
-          ></textarea>
-        </label>
-
+        <label class="labels" for="names">Names</label
+        ><input
+          type="text"
+          id="names"
+          name="name"
+          placeholder="Yeremias"
+          maxlength="30"
+          required
+        />
+        <label class="labels" for="email">Email</label
+        ><input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="natajayanj14@gmail.com"
+          required
+        />
+        <label class="labels" for="message">Message </label>
+        <textarea
+          id="message"
+          name="mail-message"
+          placeholder="Write your message here"
+          maxlength="500"
+          required
+        ></textarea>
         <div class="btn-submit">
           <button type="submit">Get in touch</button>
         </div>
