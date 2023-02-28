@@ -478,9 +478,24 @@ a:hover {
     margin-bottom: 22px;
     resize: none;
   }
+
+  input {
+    width: 90%;
+  }
+
+  textarea {
+    width: 90%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  input {
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
   .icons {
     display: none;
   }
