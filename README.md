@@ -55,6 +55,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://rushemaa.github.io/mobile-first/)
+- [Loom walkthrough](https://www.loom.com/share/fc8e206667164a6290391676431a67e7)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
