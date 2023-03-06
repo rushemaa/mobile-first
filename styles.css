@@ -40,6 +40,60 @@ a:hover {
     align-items: center;
   }
 
+  .hidden-toolbar {
+    display: none;
+  }
+
+  /* Hamburger clicked */
+
+  .not-cliked {
+    display: none;
+  }
+
+  .clicked {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('images/header-shapes-mobile.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .clicked-p {
+    background-color: #fff;
+    margin-left: 80%;
+    margin-right: 5%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: large;
+  }
+
+  .clicked-p:hover {
+    cursor: pointer;
+  }
+
+  .clicked-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    gap: 24px;
+    padding-left: initial;
+    padding-right: initial;
+  }
+
+  .clicked-ul a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  /* End of Hamburger clicked */
+
   .logo-place {
     margin-left: 12px;
   }
@@ -62,6 +116,8 @@ a:hover {
 
   .nav-menues-c {
     display: block;
+    z-index: 1;
+    text-align: center;
   }
 
   .headline {
@@ -494,6 +550,10 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
   .icons {
+    display: none;
+  }
+
+  #clicked {
     display: none;
   }
 

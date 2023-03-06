@@ -1,7 +1,18 @@
-const hamburger = document.querySelector('.icons');
-function display() {
-  const menue = document.querySelector('.nav-menues');
-  menue.classList.add('nav-menues-c');
+const clicked = document.querySelector('#clicked');
+const toolbar = document.querySelector('header');
+const clickedP = document.querySelector('.clicked-p');
+const navLinks = document.querySelectorAll('.clicked-ul li');
+function mobileMenu() {
+  toolbar.classList = 'hidden-toolbar';
+  clicked.classList = 'clicked';
+}
+function hideMobileMenu() {
+  toolbar.classList = 'toolbar';
+  clicked.classList = 'not-cliked';
 }
 
-hamburger.addEventListener('click', display);
+toolbar.addEventListener('click', mobileMenu);
+clickedP.addEventListener('click', hideMobileMenu);
+navLinks.forEach((element) => {
+  element.addEventListener('click', hideMobileMenu);
+});
