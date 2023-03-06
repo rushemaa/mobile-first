@@ -16,7 +16,7 @@ a:hover {
 }
 
 .fonts {
-  font-family: sans-serif, "Poppins";
+  font-family: sans-serif, 'Poppins';
   font-style: normal;
 }
 
@@ -52,13 +52,21 @@ a:hover {
     text-decoration: none;
   }
 
+  .icons:hover {
+    cursor: pointer;
+  }
+
   .nav-menues {
     display: none;
   }
 
+  .nav-menues-c {
+    display: block;
+  }
+
   .headline {
     flex: 1 1 auto;
-    background-image: url("images/header-shapes-mobile.png");
+    background-image: url('images/header-shapes-mobile.png');
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -428,7 +436,7 @@ a:hover {
     flex-direction: column;
     border-top-left-radius: 100px;
     margin-top: -114px;
-    background-image: url("images/contactform-shapes-mobile.png");
+    background-image: url('images/contactform-shapes-mobile.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 265px 709px;
@@ -540,7 +548,7 @@ a:hover {
 
   .headline {
     flex: 1 1 auto;
-    background-image: url("images/header-bg.png");
+    background-image: url('images/header-bg.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 97.17vw 103.36vh;
@@ -625,19 +633,19 @@ a:hover {
   }
 
   #project-1 {
-    content: url("images/projects/d-project-1.png");
+    content: url('images/projects/d-project-1.png');
   }
 
   #project-2 {
-    content: url("images/projects/d-project-2.png");
+    content: url('images/projects/d-project-2.png');
   }
 
   #project-3 {
-    content: url("images/projects/d-project-3.png");
+    content: url('images/projects/d-project-3.png');
   }
 
   #project-4 {
-    content: url("images/projects/d-project-4.png");
+    content: url('images/projects/d-project-4.png');
   }
 
   .details {
@@ -942,7 +950,7 @@ a:hover {
     flex-direction: column;
     border-top-left-radius: 100px;
     margin-top: -114px;
-    background-image: url("images/contact-form-background-shapes.png");
+    background-image: url('images/contact-form-background-shapes.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 89.6vw 102.86vh;
