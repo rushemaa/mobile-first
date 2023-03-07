@@ -40,10 +40,6 @@ a:hover {
     align-items: center;
   }
 
-  .hidden-toolbar {
-    display: none;
-  }
-
   /* Hamburger clicked */
 
   .not-cliked {
@@ -51,21 +47,27 @@ a:hover {
   }
 
   .clicked {
+    position: absolute;
+    top: 8px;
+    left: 1vw;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    background-image: url('images/header-shapes-mobile.png');
-    background-position: right top;
-    background-repeat: no-repeat;
+    width: 95vw;
     height: 100vh;
+    mix-blend-mode: multiply;
+    border: 2px solid #67798e;
+    backdrop-filter: blur(6px);
+    background: #6070ff;
+    z-index: 1;
   }
 
   .clicked-p {
-    background-color: #fff;
+    color: #fff;
+    margin-top: 30px;
     margin-left: 80%;
     margin-right: 5%;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
     font-weight: 700;
     font-size: large;
@@ -79,17 +81,22 @@ a:hover {
     display: flex;
     flex-direction: column;
     list-style: none;
-    text-align: center;
-    padding-top: 20vh;
     padding-bottom: 20vh;
-    gap: 24px;
-    padding-left: initial;
+    gap: 20px;
+    padding-left: 28px;
     padding-right: initial;
+    margin-top: 30px;
   }
 
   .clicked-ul a {
     text-decoration: none;
-    color: #000;
+    height: 24px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
   }
 
   /* End of Hamburger clicked */
@@ -116,7 +123,6 @@ a:hover {
 
   .nav-menues-c {
     display: block;
-    z-index: 1;
     text-align: center;
   }
 
@@ -127,6 +133,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    z-index: auto;
   }
 
   .headline > * {
