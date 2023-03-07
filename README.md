@@ -26,27 +26,53 @@
 
 **[Rushema-Portfolio]** is the first page of my portfolio
 
-## 🛠 Built With <a name="built-with"></a>
+# 🛠 Built With <a name="built-with">Technologies</a>
 
-### Tech Stack <a name="tech-stack"></a>
+- HTML
+- CSS
+- Javascript
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md">HTML</a></li>
-    <li><a href="https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md">CSS</a></li>
-  </ul>
-</details>
+### Tech Stack <a name="tech-stack">HTML, CSS and JavaScript</a>
+
+The entire project was built with only HTML5, CSS3 and JavaScript.
+
+
+# 📖 [Online link porfolio] <a name="about-project"></a>
+
+In this project:
+
+- [ ] For this project, we added the JavaScript + HTML + CSS linter.
+- [ ] I made sure that you used the correct GitHub flow.
+- [ ] I made sure that you documented your work in a professional way.
+- [ ] Follow our list of best practices for HTML, CSS and JavaScript.
+- [ ] I used Flexbox to place elements in the page.
+- [ ] I built a personal portfolio site.
+- [ ] I used images and backgrounds to enhance the look of my website.
+- [ ] I created a form with HTML5 validations.
+- [ ] I understood the importance of UX.
+- [ ] I understood how to parse a Figma design to create a UI.
+- [ ]We used media queries in our CSS file to make my desktop version look like the template I selected (Desktop: >=768px).
+- [ ] In order to lay out the elements on the page I used use Grid and Flexbox.
+
+- [ ]I did not implement any functionality that requires JavaScript
+- [ ] I replicated the design as much as possible (e.g., font, colors, images, text, margins) using the info from the Figma templates.
+- [ ] I the usefulness of transitions and animations.
+- [ ]I implemented functionality that requires JavaScript.
+- [ ] I used basic JavaScript syntax.
+- [ ] I used JavaScript to manipulate DOM elements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a name="key-features">
+- **[key_feature_1]** My Porfolio, built with CSS, Html and JavaScript.
+- **[key_feature_2]** Portfolio: Mobile Version.
+- **[key_feature_3]** Portfolio: add a contact form and finish the mobile version.
+- **[key_feature_4]** Portfolio: desktop version.
+- **[key_feature_5]** Portfolio - mobile menu.
+</a>
 
-- **About Myself**
-- **Contact me**
-- **Projects list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,9 +96,17 @@ To get a local copy up and running,clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ani7**
+👤 **Rushema Anicet**
 
-- GitHub: [@githubhandle](https://github.com/rushemaa)
+- GitHub: [@rushemaa](https://github.com/rushemaa)
+- Twitter: [@rushemaa](https://twitter.com/rushemaa)
+- LinkedIn: [Rushema Anicet](https://www.linkedin.com/in/rushema-anicet-77494088/)
+
+👤 **Amarachi Dimkpa**
+
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

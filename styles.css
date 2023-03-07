@@ -16,7 +16,7 @@ a:hover {
 }
 
 .fonts {
-  font-family: sans-serif, "Poppins";
+  font-family: sans-serif, 'Poppins';
   font-style: normal;
 }
 
@@ -40,6 +40,66 @@ a:hover {
     align-items: center;
   }
 
+  /* Hamburger clicked */
+
+  .not-cliked {
+    display: none;
+  }
+
+  .clicked {
+    position: absolute;
+    top: 8px;
+    left: 1vw;
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 100vh;
+    mix-blend-mode: multiply;
+    border: 2px solid #67798e;
+    backdrop-filter: blur(6px);
+    background: #6070ff;
+    z-index: 1;
+  }
+
+  .clicked-p {
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 80%;
+    margin-right: 5%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: large;
+  }
+
+  .clicked-p:hover {
+    cursor: pointer;
+  }
+
+  .clicked-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-bottom: 20vh;
+    gap: 20px;
+    padding-left: 28px;
+    padding-right: initial;
+    margin-top: 30px;
+  }
+
+  .clicked-ul a {
+    text-decoration: none;
+    height: 24px;
+    font-family: sans-serif, 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  /* End of Hamburger clicked */
+
   .logo-place {
     margin-left: 12px;
   }
@@ -52,17 +112,27 @@ a:hover {
     text-decoration: none;
   }
 
+  .icons:hover {
+    cursor: pointer;
+  }
+
   .nav-menues {
     display: none;
   }
 
+  .nav-menues-c {
+    display: block;
+    text-align: center;
+  }
+
   .headline {
     flex: 1 1 auto;
-    background-image: url("images/header-shapes-mobile.png");
+    background-image: url('images/header-shapes-mobile.png');
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    z-index: auto;
   }
 
   .headline > * {
@@ -428,7 +498,7 @@ a:hover {
     flex-direction: column;
     border-top-left-radius: 100px;
     margin-top: -114px;
-    background-image: url("images/contactform-shapes-mobile.png");
+    background-image: url('images/contactform-shapes-mobile.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 265px 709px;
@@ -489,6 +559,10 @@ a:hover {
     display: none;
   }
 
+  #clicked {
+    display: none;
+  }
+
   .main-wrapper {
     background: white;
     display: flex;
@@ -540,7 +614,7 @@ a:hover {
 
   .headline {
     flex: 1 1 auto;
-    background-image: url("images/header-bg.png");
+    background-image: url('images/header-bg.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 97.17vw 103.36vh;
@@ -625,19 +699,19 @@ a:hover {
   }
 
   #project-1 {
-    content: url("images/projects/d-project-1.png");
+    content: url('images/projects/d-project-1.png');
   }
 
   #project-2 {
-    content: url("images/projects/d-project-2.png");
+    content: url('images/projects/d-project-2.png');
   }
 
   #project-3 {
-    content: url("images/projects/d-project-3.png");
+    content: url('images/projects/d-project-3.png');
   }
 
   #project-4 {
-    content: url("images/projects/d-project-4.png");
+    content: url('images/projects/d-project-4.png');
   }
 
   .details {
@@ -942,7 +1016,7 @@ a:hover {
     flex-direction: column;
     border-top-left-radius: 100px;
     margin-top: -114px;
-    background-image: url("images/contact-form-background-shapes.png");
+    background-image: url('images/contact-form-background-shapes.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 89.6vw 102.86vh;

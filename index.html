@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
   </head>
   <body>
     <div class="main-wrapper fonts">
-      <header class="toolbar">
+      <nav id="clicked" class="not-cliked">
+        <p class="clicked-p">X</p>
+        <ul class="clicked-ul">
+          <li>
+            <a href="#portfolio">Portoflio</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <header id="toolbar" class="toolbar">
         <div class="logo-place">
           <a href="./index.html" class="my-logo hex">My Logo</a>
         </div>
@@ -17,21 +32,20 @@
           <figure class="icons">
             <img src="images/Icons/Union.png" alt="Icons" />
           </figure>
-
           <ul class="nav-menues">
             <li>
-              <a href="#">Portoflio</a>
+              <a href="#portfolio">Portoflio</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
-      <section class="headline">
+      <section id="portfolio" class="headline">
         <h1>I’m Rushema Glad to see you!</h1>
         <p class="text">
           I’m a software developer! I can help you build a product , feature or
@@ -209,7 +223,7 @@
       </section>
     </div>
     <!-- About myself -->
-    <section class="about-myself fonts">
+    <section id="about" class="about-myself fonts">
       <div class="myslef">
         <h2 class="about">About Myself</h2>
         <p class="text">
@@ -288,7 +302,7 @@
       </div>
     </section>
     <!-- the contact form -->
-    <section class="contact-me">
+    <section id="contact" class="contact-me fonts">
       <div class="c-heading">
         <h2>Contact me</h2>
         <p>
