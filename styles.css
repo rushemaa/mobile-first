@@ -349,6 +349,12 @@ a:hover {
     border: 1px solid #6070ff;
   }
 
+  .see-project button:hover {
+    background: #4053fc;
+    color: #fff;
+    cursor: pointer;
+  }
+
   .about-myself {
     background-color: #fff;
     display: flex;
@@ -626,7 +632,6 @@ a:hover {
   .p-canopy .o-li {
     font-weight: 600;
     font-size: 13px;
-    font-size: 13px;
     color: #7a869a;
   }
 
@@ -673,10 +678,9 @@ a:hover {
     height: 24px;
     gap: 8px;
     list-style-type: none;
-    margin: initial;
   }
 
-  .p-categories li {
+  .categories-li {
     padding: 4px 12px;
     background: #ebebff;
     border-radius: 8px;
@@ -1260,6 +1264,7 @@ a:hover {
     -webkit-filter: blur(8px);
     z-index: 0;
   }
+
   .popup {
     position: absolute;
     top: 77px;
@@ -1325,7 +1330,6 @@ a:hover {
   .p-canopy .o-li {
     font-weight: 600;
     font-size: 13px;
-    font-size: 13px;
     color: #7a869a;
   }
 
@@ -1372,8 +1376,6 @@ a:hover {
   .desktop-right {
     display: flex;
     flex-direction: column;
-    gap: 0px;
-    flex: 1;
   }
 
   .p-categories {
@@ -1381,13 +1383,13 @@ a:hover {
     flex-direction: row;
     align-items: center;
     padding: initial;
-    height: 24px;
     gap: 8px;
     list-style-type: none;
     margin: initial;
+    flex-wrap: wrap;
   }
 
-  .p-categories li {
+  .categories-li {
     padding: 4px 12px;
     background: #ebebff;
     border-radius: 8px;
@@ -1420,6 +1422,11 @@ a:hover {
     gap: 14px;
     align-items: center;
     min-width: 142px;
+  }
+
+  .btn-see:hover {
+    color: #fff;
+    cursor: pointer;
   }
 
   .btn-text {
