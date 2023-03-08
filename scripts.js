@@ -91,6 +91,20 @@ for (let index = 0; index < projects.length; index++) {
   const pClasses = document.createAttribute('class');
   pClasses.value = 'grid-items project-1 fonts';
   pSection.setAttributeNode(pClasses);
-
+  // creating image
+  const img = document.createElement('img');
+  const imgClasses = document.createAttribute('class');
+  imgClasses.value = 'project-img';
+  img.setAttributeNode(imgClasses);
+  const imgId = document.createAttribute('id');
+  imgId.value = 'project-1';
+  img.setAttributeNode(imgId);
+  const imgSrc = document.createAttribute('src');
+  imgSrc.value = 'images/projects/project-1.png';
+  img.setAttributeNode(imgSrc);
+  const imgAlt = document.createAttribute('alt');
+  imgAlt.value = `Project-${index}`;
+  img.setAttributeNode(imgAlt);
+  pSection.appendChild(img);
   works.appendChild(pSection);
 }
