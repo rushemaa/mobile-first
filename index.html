@@ -9,30 +9,14 @@
     <script src="scripts.js" defer></script>
   </head>
   <body>
-    <div class="main-wrapper fonts">
-      <nav id="clicked" class="not-cliked">
-        <p class="clicked-p">X</p>
-        <ul class="clicked-ul">
-          <li>
-            <a href="#portfolio">Portoflio</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <header id="toolbar" class="toolbar">
-        <div class="logo-place">
-          <a href="./index.html" class="my-logo hex">My Logo</a>
-        </div>
-        <nav>
-          <figure class="icons">
-            <img src="images/Icons/Union.png" alt="Icons" />
-          </figure>
-          <ul class="nav-menues">
+    <!-- Popup here -->
+    <section id="popup" class="fonts hidden-popup"></section>
+    <!-- Popup end here -->
+    <div id="main">
+      <div class="main-wrapper fonts">
+        <nav id="clicked" class="not-cliked">
+          <p class="clicked-p">X</p>
+          <ul class="clicked-ul">
             <li>
               <a href="#portfolio">Portoflio</a>
             </li>
@@ -44,303 +28,185 @@
             </li>
           </ul>
         </nav>
-      </header>
-      <section id="portfolio" class="headline">
-        <h1>I’m Rushema Glad to see you!</h1>
-        <p class="text">
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <h2 class="hex connect">LET’S CONNECT</h2>
-        <ul class="social-media">
-          <li clalss="socials">
+        <header id="toolbar" class="toolbar">
+          <div class="logo-place">
+            <a href="./index.html" class="my-logo hex">My Logo</a>
+          </div>
+          <nav>
+            <figure class="icons">
+              <img src="images/Icons/Union.png" alt="Icons" />
+            </figure>
+            <ul class="nav-menues">
+              <li>
+                <a href="#portfolio">Portoflio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section id="portfolio" class="headline">
+          <h1>I’m Rushema Glad to see you!</h1>
+          <p class="text">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <h2 class="hex connect">LET’S CONNECT</h2>
+          <ul class="social-media">
+            <li clalss="socials">
+              <a href="#"
+                ><img src="images/socials/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li clalss="socials">
+              <a href="#"
+                ><img src="images/socials/Linkedin.svg" alt="Liinkedin"
+              /></a>
+            </li>
+            <li clalss="socials">
+              <a href="#"><img src="images/socials/m.svg" alt="Medium" /></a>
+            </li>
+            <li clalss="socials">
+              <a href="#"
+                ><img src="images/socials/Vector1.svg" alt="Github"
+              /></a>
+            </li>
+            <li clalss="socials">
+              <a href="#"
+                ><img src="images/socials/Vector2.svg" alt="Angellist"
+              /></a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <!-- works -->
+      <div class="works"></div>
+      <!-- About myself -->
+      <section id="about" class="about-myself fonts">
+        <div class="myslef">
+          <h2 class="about">About Myself</h2>
+          <p class="text">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <h2 class="hex connect">LET’S CONNECT</h2>
+          <ul class="social-media">
+            <li clalss="socials">
+              <a href="#"
+                ><img src="images/socials/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li clalss="socials">
+              <a href="#"
+                ><img src="images/socials/Linkedin.svg" alt="Liinkedin"
+              /></a>
+            </li>
+            <li clalss="socials">
+              <a href="#"><img src="images/socials/m.svg" alt="Medium" /></a>
+            </li>
+            <li clalss="socials">
+              <a href="#"
+                ><img src="images/socials/Vector1.svg" alt="Github"
+              /></a>
+            </li>
+            <li clalss="socials">
+              <a href="#"
+                ><img src="images/socials/Vector2.svg" alt="Angellist"
+              /></a>
+            </li>
+          </ul>
+          <div class="see-project">
             <a href="#"
-              ><img src="images/socials/twitter.svg" alt="Twitter"
-            /></a>
-          </li>
-          <li clalss="socials">
-            <a href="#"
-              ><img src="images/socials/Linkedin.svg" alt="Liinkedin"
-            /></a>
-          </li>
-          <li clalss="socials">
-            <a href="#"><img src="images/socials/m.svg" alt="Medium" /></a>
-          </li>
-          <li clalss="socials">
-            <a href="#"
-              ><img src="images/socials/Vector1.svg" alt="Github"
-            /></a>
-          </li>
-          <li clalss="socials">
-            <a href="#"
-              ><img src="images/socials/Vector2.svg" alt="Angellist"
-            /></a>
-          </li>
-        </ul>
+              ><button type="button" class="hex">Get my resume</button></a
+            >
+          </div>
+        </div>
+
+        <div class="languages-list">
+          <ul>
+            <li class="lang-title">
+              <p class="langusge">Languages</p>
+              <img
+                class="allow-down"
+                src="images/Icons/vector.png"
+                alt="allow-down"
+              />
+            </li>
+            <span class="land-span">
+              <li class="lang">
+                <img src="images/langusges/js.png" alt="js" />
+                <p>JavaSript</p>
+              </li>
+              <li class="lang">
+                <img src="images/langusges/html.png" alt="HTML" />
+                <p>HTML</p>
+              </li>
+              <li class="lang">
+                <img src="images/langusges/css.png" alt="CSS" />
+                <p>CSS</p>
+              </li>
+            </span>
+            <li class="frameworks">
+              <p class="langusge">Frameworks</p>
+              <p class="sign">></p>
+            </li>
+
+            <li class="frameworks">
+              <p class="langusge">Skills</p>
+              <p class="sign">></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- the contact form -->
+      <section id="contact" class="contact-me fonts">
+        <div class="c-heading">
+          <h2>Contact me</h2>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
+        <form action="https://formspree.io/f/meqwgpza" method="POST">
+          <label class="labels" for="names">Names</label
+          ><input
+            type="text"
+            id="names"
+            name="name"
+            placeholder="Yeremias"
+            maxlength="30"
+            required
+          />
+          <label class="labels" for="email">Email</label
+          ><input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="natajayanj14@gmail.com"
+            required
+          />
+          <label class="labels" for="message">Message </label>
+          <textarea
+            id="message"
+            name="mail-message"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+          <div class="btn-submit">
+            <button type="submit">Get in touch</button>
+          </div>
+        </form>
       </section>
     </div>
-    <!-- works -->
-    <div class="works">
-      <section class="grid-items project-1 fonts">
-        <img
-          class="project-img"
-          id="project-1"
-          src="images/projects/project-1.png"
-          alt="Project-1"
-        />
-        <div class="details">
-          <div class="titles">
-            <h3 class="project-title">Tonic</h3>
-            <ul class="canopy">
-              <li>CANOPY</li>
-              <li class="bullets"><span class="dot"></span></li>
-              <li class="o-li">Back End Dev</li>
-              <li class="bullets"><span class="dot"></span></li>
-              <li class="o-li">2015</li>
-            </ul>
-          </div>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="categories hex">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <div class="see-project">
-            <a href="#"
-              ><button type="button" class="hex">See Project</button></a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- project 2 -->
-      <section class="grid-items other-projects fonts reverse">
-        <img
-          class="project-img"
-          id="project-2"
-          src="images/projects/project-2.png"
-          alt="Project-2"
-        />
-        <div class="details">
-          <div class="titles">
-            <h3 class="project-title">Multi-Post Stories</h3>
-            <ul class="canopy">
-              <li>CANOPY</li>
-              <li class="bullets"><span class="dot"></span></li>
-              <li class="o-li">Back End Dev</li>
-              <li class="bullets"><span class="dot"></span></li>
-              <li class="o-li">2015</li>
-            </ul>
-          </div>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="categories hex">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <div class="see-project">
-            <a href="#"
-              ><button type="button" class="hex">See Project</button></a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- project 3 -->
-      <section class="grid-items other-projects fonts">
-        <img
-          class="project-img"
-          id="project-3"
-          src="images/projects/project-3.png"
-          alt="Project-3"
-        />
-        <div class="details">
-          <div class="titles">
-            <h3 class="project-title">Tonic</h3>
-            <ul class="canopy">
-              <li>CANOPY</li>
-              <li class="bullets"><span class="dot"></span></li>
-              <li class="o-li">Back End Dev</li>
-              <li class="bullets"><span class="dot"></span></li>
-              <li class="o-li">2015</li>
-            </ul>
-          </div>
-          <p class="fonts">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="categories hex">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <div class="see-project">
-            <a href="#"
-              ><button type="button" class="hex">See Project</button></a
-            >
-          </div>
-        </div>
-      </section>
-      <section class="grid-items other-projects fonts reverse">
-        <img
-          class="project-img"
-          id="project-4"
-          src="images/projects/project-4.png"
-          alt="Project-4"
-        />
-        <div class="details">
-          <div class="titles">
-            <h3 class="project-title fonts">Multi-Post Stories</h3>
-            <ul class="canopy">
-              <li>CANOPY</li>
-              <li class="bullets"><span class="dot"></span></li>
-              <li class="o-li">Back End Dev</li>
-              <li class="bullets"><span class="dot"></span></li>
-              <li class="o-li">2015</li>
-            </ul>
-          </div>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="categories hex">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <div class="see-project">
-            <a href="#"
-              ><button type="button" class="hex">See Project</button></a
-            >
-          </div>
-        </div>
-      </section>
-    </div>
-    <!-- About myself -->
-    <section id="about" class="about-myself fonts">
-      <div class="myslef">
-        <h2 class="about">About Myself</h2>
-        <p class="text">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-        <h2 class="hex connect">LET’S CONNECT</h2>
-        <ul class="social-media">
-          <li clalss="socials">
-            <a href="#"
-              ><img src="images/socials/twitter.svg" alt="Twitter"
-            /></a>
-          </li>
-          <li clalss="socials">
-            <a href="#"
-              ><img src="images/socials/Linkedin.svg" alt="Liinkedin"
-            /></a>
-          </li>
-          <li clalss="socials">
-            <a href="#"><img src="images/socials/m.svg" alt="Medium" /></a>
-          </li>
-          <li clalss="socials">
-            <a href="#"
-              ><img src="images/socials/Vector1.svg" alt="Github"
-            /></a>
-          </li>
-          <li clalss="socials">
-            <a href="#"
-              ><img src="images/socials/Vector2.svg" alt="Angellist"
-            /></a>
-          </li>
-        </ul>
-        <div class="see-project">
-          <a href="#"
-            ><button type="button" class="hex">Get my resume</button></a
-          >
-        </div>
-      </div>
-
-      <div class="languages-list">
-        <ul>
-          <li class="lang-title">
-            <p class="langusge">Languages</p>
-            <img
-              class="allow-down"
-              src="images/Icons/vector.png"
-              alt="allow-down"
-            />
-          </li>
-          <span class="land-span">
-            <li class="lang">
-              <img src="images/langusges/js.png" alt="js" />
-              <p>JavaSript</p>
-            </li>
-            <li class="lang">
-              <img src="images/langusges/html.png" alt="HTML" />
-              <p>HTML</p>
-            </li>
-            <li class="lang">
-              <img src="images/langusges/css.png" alt="CSS" />
-              <p>CSS</p>
-            </li>
-          </span>
-          <li class="frameworks">
-            <p class="langusge">Frameworks</p>
-            <p class="sign">></p>
-          </li>
-
-          <li class="frameworks">
-            <p class="langusge">Skills</p>
-            <p class="sign">></p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- the contact form -->
-    <section id="contact" class="contact-me fonts">
-      <div class="c-heading">
-        <h2>Contact me</h2>
-        <p>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-      </div>
-      <form action="https://formspree.io/f/meqwgpza" method="POST">
-        <label class="labels" for="names">Names</label
-        ><input
-          type="text"
-          id="names"
-          name="name"
-          placeholder="Yeremias"
-          maxlength="30"
-          required
-        />
-        <label class="labels" for="email">Email</label
-        ><input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="natajayanj14@gmail.com"
-          required
-        />
-        <label class="labels" for="message">Message </label>
-        <textarea
-          id="message"
-          name="mail-message"
-          placeholder="Write your message here"
-          maxlength="500"
-          required
-        ></textarea>
-        <div class="btn-submit">
-          <button type="submit">Get in touch</button>
-        </div>
-      </form>
-    </section>
   </body>
 </html>
