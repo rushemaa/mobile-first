@@ -2,6 +2,15 @@ body {
   background: #e5e5e5;
 }
 
+small {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 27px;
+}
+
 .hex {
   color: #3c4bce;
 }
@@ -29,6 +38,15 @@ a:hover {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
+  small {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-bottom: initial;
+  }
+
   .main-wrapper {
     background: white;
     display: flex;
