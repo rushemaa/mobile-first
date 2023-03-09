@@ -1,5 +1,4 @@
-const form = document.querySelector("form");
-form.addEventListener("submit", (event) => {
-  // stop form submission
+const form = document.querySelector('form');
+form.addEventListener('submit', (event) => {
   event.preventDefault();
 });
