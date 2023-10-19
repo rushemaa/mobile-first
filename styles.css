@@ -134,6 +134,10 @@ a:hover {
     text-decoration: none;
   }
 
+  .my-logo img {
+    width: 50px;
+  }
+
   .icons:hover {
     cursor: pointer;
   }
@@ -226,7 +230,7 @@ a:hover {
 
   .project-img {
     border-radius: 8px;
-    width: auto;
+    max-width: 100%;
   }
 
   .details {
@@ -676,7 +680,7 @@ a:hover {
 
   .p-project-img {
     border-radius: 8px;
-    width: auto;
+    max-width: 100%;
   }
 
   .p-text {
@@ -781,6 +785,10 @@ a:hover {
     font-size: 18px;
     line-height: 20px;
     text-decoration: none;
+  }
+
+  .my-logo img {
+    width: 50px;
   }
 
   .nav-menues {
@@ -1050,7 +1058,7 @@ a:hover {
     height: 48px;
   }
 
-  .grid-items .see-project button:hover {
+  .see-project button:hover {
     background: #4053fc;
     color: #fff;
     cursor: pointer;
@@ -1274,6 +1282,10 @@ a:hover {
     margin-bottom: 127px;
     width: 100%;
     text-align: center;
+  }
+
+  .btn-submit button:hover {
+    cursor: pointer;
   }
 
   /* for the popup */

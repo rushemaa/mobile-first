@@ -19,60 +19,62 @@ navLinks.forEach((element) => {
 
 const projects = [
   {
-    name: 'Tonic',
+    name: 'KIVU BELT TOURS ',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essent`,
+      'A web application CMS for a transport company called Kivu Belt Tours LTD',
+    descriptions:
+      "A web application CMS for a transport company called Kivu Belt Tours LTD. Built with React, JavaScript, Express, and MySQL. It manages all the company's internal processes such as Buses time tables, driver's shifts, parcels, fuels, garages, workers, and expenses and generates different reports.",
     image: 'images/projects/project-1.png',
-    technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
-    links: { live: '#', source: '#' },
+    technologies: [
+      'React',
+      'Redux',
+      'NodeJs',
+      'Express',
+      'javaScript',
+      'Bootstraps',
+      'CSS',
+    ],
+    links: {
+      live: 'https://kivubelttours.com',
+      source: 'https://github.com/rushemaa/kivu-belt',
+    },
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Premier events',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essent`,
+      'Event management wep application to facilitate registration and accreditation',
+    descriptions: `Premier events is an event management wep application to facilitate registration and accreditation.
+It is composed with two portal: client portal and admin portal.
+Cleint portal handles registration, while admin portal handles accreditation`,
     image: 'images/projects/project-2.png',
-    technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
-    links: { live: '#', source: '#' },
+    technologies: ['html', 'css', 'javaScript', 'PHP', 'Foundation'],
+    links: { live: 'https://premierevents.rw', source: '#' },
   },
   {
-    name: 'Tonic',
+    name: 'RMsoft.rw',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essent`,
+      'It is the website for the company called RMsoft .It shows information about the company, services, team, and contact details',
+    descriptions:
+      'It is the website for the company called RMsoft .It shows information about the company, services, team, and contact details.It is built in HTML, CSS, and JavaScript',
     image: 'images/projects/project-3.png',
-    technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
-    links: { live: '#', source: '#' },
+    technologies: ['html', 'css', 'javaScript', 'webpack'],
+    links: {
+      live: 'https://rushemaa.github.io/capstone',
+      source: 'https://github.com/rushemaa/capstone',
+    },
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Book Store',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    descriptions: `Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essent`,
+      'The bookStore is a book CMS that allows a user to add, remove, and rent a book.',
+    descriptions:
+      'The bookStore is a book CMS that allows a user to add, remove,rent a book, and view the list of all books. It is built in React and Redux',
     image: 'images/projects/project-4.png',
-    technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
-    links: { live: '#', source: '#' },
+    technologies: ['React', 'Redux', 'html', 'css', 'javaScript'],
+    links: {
+      live: 'https://bookstore-k8ri.onrender.com',
+      source: 'https://github.com/rushemaa/book-store',
+    },
   },
 ];
 // passing data into the works section
@@ -112,11 +114,11 @@ for (let index = 0; index < projects.length; index++) {
   const titles = `<div class="titles">
               <h3 class="project-title">${name}</h3>
               <ul class="canopy">
-                <li>CANOPY</li>
+                <li>Front End</li>
                 <li class="bullets"><span class="dot"></span></li>
-                <li class="o-li">Back End Dev</li>
+                <li class="o-li">Back End</li>
                 <li class="bullets"><span class="dot"></span></li>
-                <li class="o-li">2015</li>
+                <li class="o-li">2023</li>
               </ul>
             </div>`;
   const text = `<p>${description}</p>`;
@@ -162,11 +164,11 @@ seeProject.forEach((element) => {
           <p id="btn-close">X</p>
         </div>
         <ul class="p-canopy">
-          <li>CANOPY</li>
+          <li>Front End</li>
           <li class="p-bullets"><span class="p-dot"></span></li>
-          <li class="o-li">Back End Dev</li>
+          <li class="o-li">Back End</li>
           <li class="p-bullets"><span class="p-dot"></span></li>
-          <li class="o-li">2015</li>
+          <li class="o-li">2023</li>
         </ul>
       </div>
 
@@ -194,11 +196,11 @@ seeProject.forEach((element) => {
           ${li}
           </ul>
           <div class="p-see-project">
-            <a href="${live}"><button type="button" class="btn-see hex">
+            <a target="_blank" href="${live}"><button type="button" class="btn-see hex">
               <span class="btn-text">See live</span
               ><img alt="Live" src="images/socials/live.png" />
             </button></a>
-            <a href="${source}"><button type="button" class="btn-see hex">
+            <a target="_blank" href="${source}"><button type="button" class="btn-see hex">
               <span class="btn-text">See Source</span
               ><img alt="Live" src="images/socials/github.png" />
             </button></a>
