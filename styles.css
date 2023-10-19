@@ -230,7 +230,7 @@ a:hover {
 
   .project-img {
     border-radius: 8px;
-    width: auto;
+    max-width: 100%;
   }
 
   .details {
@@ -680,7 +680,7 @@ a:hover {
 
   .p-project-img {
     border-radius: 8px;
-    width: auto;
+    max-width: 100%;
   }
 
   .p-text {
@@ -1282,6 +1282,10 @@ a:hover {
     margin-bottom: 127px;
     width: 100%;
     text-align: center;
+  }
+
+  .btn-submit button:hover {
+    cursor: pointer;
   }
 
   /* for the popup */
